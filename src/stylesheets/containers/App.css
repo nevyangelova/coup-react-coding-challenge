@@ -1,0 +1,11 @@
+@import './scooters.css';
+
+body {
+  background:
+    linear-gradient(
+      rgba(103, 68, 77, 0.7),
+      rgba(103, 68, 77, 0.7)
+    ),
+    url("../pop-art-collage.png");
+    min-width: 240px;
+}

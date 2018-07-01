@@ -1,0 +1,38 @@
+{
+  "name": "coup-react-coding-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "babel-core": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "enzyme": "^3.3.0",
+    "expect": "^23.0.1",
+    "jest": "^23.0.1",
+    "mocha": "^5.2.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-router": "^4.1.1",
+    "react-scripts": "1.1.4",
+    "react-scroll": "^1.7.9"
+  },
+  "author": "Nevyana Angelova",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nevyangelova/coup-react-coding-challenge"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}

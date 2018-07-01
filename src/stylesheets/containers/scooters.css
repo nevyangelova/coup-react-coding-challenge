@@ -1,0 +1,21 @@
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 10%;
+}
+
+.scooter-row {
+  background: #fff;
+}
+
+.robot-image {
+  width: 25px;
+  height: 25px;
+}
+
+.heading {
+  color: #693aaf;
+  text-align: center;
+  margin: 5%;
+  font-weight: bold;
+}
