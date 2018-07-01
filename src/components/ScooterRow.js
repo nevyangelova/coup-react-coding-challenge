@@ -9,7 +9,7 @@ const ScooterRow = ({robotImageSrc, scooter}) => {
       <td>{scooter.license_plate}</td>
       <td>{scooter.energy_level}%</td>
       <td><span className="purple">{scooter.distance_to_travel}</span></td>
-      <td><button>See on map</button></td>
+      <td><button className="map-button">See on map</button></td>
     </tr>
   );
 };
