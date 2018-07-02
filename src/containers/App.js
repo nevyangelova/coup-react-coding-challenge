@@ -11,6 +11,10 @@ class App extends Component {
       scooters: [],
       setFilterFormFlag: false
     }
+
+    this.refreshInterval = setInterval(() => {
+      this.fetchScooters();
+    }, 10000);
   }
 
   componentDidMount() {
@@ -30,10 +34,11 @@ class App extends Component {
 
   initialiseFiltersForm() {
     this.setState({setFilterFormFlag: true});
+
+    clearInterval(this.refreshInterval);
   }
 
   filterScooters(scooters, filters) {
-    console.log(filters);
     return scooters.filter((scooter) => {
       return (scooter.model === filters.model || filters.model === null) &&
       (scooter.distance_to_travel < filters.distance_to_travel || filters.distance_to_travel === null) &&
