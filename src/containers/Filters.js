@@ -11,7 +11,7 @@ export class Filters extends React.Component {
         distance_to_travel: null,
         energy_level: null
       }
-    };
+    }
 
     this.updateSelectedFilters = this.updateSelectedFilters.bind(this);
     this.applyFilters = this.props.applyFilters.bind(this);
